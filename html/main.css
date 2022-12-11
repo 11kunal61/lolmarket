@@ -3,13 +3,54 @@
     src: url(Neoteric-32A8.ttf);
 }
 
+@font-face {
+    font-family: Boblox;
+    src: url(fonts/boblox-classic-font/BobloxClassic-nRjl4.ttf);
+}
+@font-face {
+    font-family: AquireNormal;
+    src: url(fonts/aquire-font/Aquire-BW0ox.otf);
+}
+@font-face {
+    font-family: Calligrapher;
+    src: url(fonts/calligrapher-font/Calligrapher-JRxaE.ttf);
+}
+@font-face {
+    font-family: Goldleaf;
+    src: url(fonts/goldleaf-bold-font/GoldleafBoldPersonalUseBold-eZ4dO.ttf);
+}
+@font-face {
+    font-family: Gracility;
+    src: url(fonts/gracility-font/GracilityRegular-0WPqo.ttf);
+}
+@font-face {
+    font-family: Grotley;
+    src: url(fonts/grotley-font/GrotleyRegular-mLEWv.otf);
+}
+@font-face {
+    font-family: Hendrickson;
+    src: url(fonts/hendrickson-font/Hendrickson-K7GOD.otf);
+}
+@font-face {
+    font-family: Raylig;
+    src: url(fonts/raylig-font/RayligAlternateregular-L3vKD.otf);
+}
+@font-face {
+    font-family: Serenity;
+    src: url(fonts/serenity-moment-font/SerenityMomentRegular-d9Lw6.ttf);
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
 body {
     margin: 0;
-    background-image: url(yes.png);
+    background-image: url(pics/yes.png);
     background-size: 100%;
     background-attachment: fixed;
-
+    color:aliceblue;
 }
+
+/* ------------------------------------------------------------------------------------------------------------------ */
 
 header {
     font-family: Neoteric;
@@ -24,6 +65,28 @@ header img {
     margin-left: 26px;
 }
 
+div {
+    display: inline;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: -50px;
+}
+
+section {
+    font-size: larger;
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+
+footer {
+    font-family: Neoteric;
+    padding: 50px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: rgb(48, 48, 48);
+}
+
 #cumfut a{
     text-decoration: none;
     color: rgb(118, 184, 241);
@@ -34,3 +97,18 @@ header img {
     margin: 10%;
     word-wrap: normal;
 }
+
+.imuj {
+    text-align: center;
+    position:relative;
+    top: -60px;
+}
+/* ------------------------------------------------------------------------------------------------------------------ */
+
+
+.creator1 {
+    font-family: Serenity;
+    letter-spacing: 2px;
+}
+
+
