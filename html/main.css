@@ -1,0 +1,29 @@
+@font-face {
+    font-family: Neoteric;
+    src: url(Neoteric-32A8.ttf);
+}
+
+body {
+    margin: 0;
+    background-image: url(yes.png);
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+header {
+    padding-left: 7.65%;
+    font-family: Neoteric;
+    font-size: xx-large;
+    background-color: rgb(58, 58, 58);
+    padding-bottom: 5px;
+    color: azure;
+
+
+}
+
+footer {
+    padding: 50px;
+    color: white;
+    background-color: rgb(48, 48, 48);
+}
